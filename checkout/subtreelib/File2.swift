@@ -12,4 +12,7 @@ class subtreelibClass2 {
     public static func printSomethingElse() {
         print("something else")
     }
+    public static func nothingImportant(){
+        print("nothing important")
+    }
 }
