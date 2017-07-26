@@ -31,6 +31,20 @@
 			remoteGlobalIDString = F513A66D1F28BF2500A6ADE2;
 			remoteInfo = "parent-subtrees";
 		};
+		F513A6F41F28C70500A6ADE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F513A6EF1F28C70500A6ADE2 /* subtreelib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F513A6D11F28C15300A6ADE2;
+			remoteInfo = subtreelib;
+		};
+		F513A6F61F28C70500A6ADE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F513A6EF1F28C70500A6ADE2 /* subtreelib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F513A6DA1F28C15300A6ADE2;
+			remoteInfo = subtreelibTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +61,7 @@
 		F513A68D1F28BF2500A6ADE2 /* parent-subtreesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "parent-subtreesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F513A6911F28BF2500A6ADE2 /* parent_subtreesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parent_subtreesUITests.swift; sourceTree = "<group>"; };
 		F513A6931F28BF2500A6ADE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F513A6EF1F28C70500A6ADE2 /* subtreelib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = subtreelib.xcodeproj; path = checkout/subtreelib.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +92,7 @@
 		F513A6651F28BF2500A6ADE2 = {
 			isa = PBXGroup;
 			children = (
+				F513A6EF1F28C70500A6ADE2 /* subtreelib.xcodeproj */,
 				F513A6701F28BF2500A6ADE2 /* parent-subtrees */,
 				F513A6851F28BF2500A6ADE2 /* parent-subtreesTests */,
 				F513A6901F28BF2500A6ADE2 /* parent-subtreesUITests */,
@@ -123,6 +139,15 @@
 				F513A6931F28BF2500A6ADE2 /* Info.plist */,
 			);
 			path = "parent-subtreesUITests";
+			sourceTree = "<group>";
+		};
+		F513A6F01F28C70500A6ADE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F513A6F51F28C70500A6ADE2 /* subtreelib.framework */,
+				F513A6F71F28C70500A6ADE2 /* subtreelibTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +246,12 @@
 			mainGroup = F513A6651F28BF2500A6ADE2;
 			productRefGroup = F513A66F1F28BF2500A6ADE2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F513A6F01F28C70500A6ADE2 /* Products */;
+					ProjectRef = F513A6EF1F28C70500A6ADE2 /* subtreelib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F513A66D1F28BF2500A6ADE2 /* parent-subtrees */,
@@ -229,6 +260,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F513A6F51F28C70500A6ADE2 /* subtreelib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = subtreelib.framework;
+			remoteRef = F513A6F41F28C70500A6ADE2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F513A6F71F28C70500A6ADE2 /* subtreelibTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = subtreelibTests.xctest;
+			remoteRef = F513A6F61F28C70500A6ADE2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F513A66C1F28BF2500A6ADE2 /* Resources */ = {
@@ -516,6 +564,7 @@
 				F513A6981F28BF2500A6ADE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F513A6991F28BF2500A6ADE2 /* Build configuration list for PBXNativeTarget "parent-subtreesTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +573,7 @@
 				F513A69B1F28BF2500A6ADE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F513A69C1F28BF2500A6ADE2 /* Build configuration list for PBXNativeTarget "parent-subtreesUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +582,7 @@
 				F513A69E1F28BF2500A6ADE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
