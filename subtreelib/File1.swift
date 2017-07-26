@@ -12,4 +12,8 @@ class subtreelibClass1 {
     public static func printSomething(){
         print("something")
     }
+
+    public static func printEverything(){
+        print("everything")
+    }
 }
