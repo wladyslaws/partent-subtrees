@@ -12,6 +12,7 @@
 		F513A6E21F28C15300A6ADE2 /* subtreelib.h in Headers */ = {isa = PBXBuildFile; fileRef = F513A6D41F28C15300A6ADE2 /* subtreelib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F513A6EC1F28C23A00A6ADE2 /* File1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513A6EB1F28C23A00A6ADE2 /* File1.swift */; };
 		F513A6EE1F28C2A300A6ADE2 /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513A6ED1F28C2A300A6ADE2 /* File2.swift */; };
+		F513A6FC1F28CC7E00A6ADE2 /* File3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513A6FB1F28CC7E00A6ADE2 /* File3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		F513A6E11F28C15300A6ADE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F513A6EB1F28C23A00A6ADE2 /* File1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File1.swift; sourceTree = "<group>"; };
 		F513A6ED1F28C2A300A6ADE2 /* File2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
+		F513A6FB1F28CC7E00A6ADE2 /* File3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				F513A6D51F28C15300A6ADE2 /* Info.plist */,
 				F513A6EB1F28C23A00A6ADE2 /* File1.swift */,
 				F513A6ED1F28C2A300A6ADE2 /* File2.swift */,
+				F513A6FB1F28CC7E00A6ADE2 /* File3.swift */,
 			);
 			path = subtreelib;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F513A6EE1F28C2A300A6ADE2 /* File2.swift in Sources */,
+				F513A6FC1F28CC7E00A6ADE2 /* File3.swift in Sources */,
 				F513A6EC1F28C23A00A6ADE2 /* File1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

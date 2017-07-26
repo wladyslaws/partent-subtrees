@@ -8,7 +8,7 @@
 
 import Foundation
 
-class subtreelibClass2 {
+open class subtreelibClass2 {
     public static func printSomethingElse() {
         print("something else")
     }
